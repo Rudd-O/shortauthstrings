@@ -1,6 +1,10 @@
+*.egg-info
+*.dist-info
 dist
-src
+build
 __pycache__
 *.pyc
+*.pyo
+*.pyd
 *.rpm
 .tox
