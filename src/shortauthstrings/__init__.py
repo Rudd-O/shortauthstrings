@@ -16,7 +16,7 @@ No cryptography is done in this package.
 
 from typing import Optional
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 # From https://github.com/urbit/urbit/blob/7ce50ad75e23fcec0c8cb6ad60369b2515657a89/pkg/arvo/sys/hoon.hoon#L4038-L4053
 
