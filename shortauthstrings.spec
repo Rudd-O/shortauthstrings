@@ -1,3 +1,5 @@
+# See https://docs.fedoraproject.org/en-US/packaging-guidelines/Python/#_example_spec_file
+
 %define debug_package %{nil}
 
 %define _name shortauthstrings
