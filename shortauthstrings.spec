@@ -51,6 +51,7 @@ Summary:        %{summary}
 
 
 %check
+ls -lRa .
 %tox
 
 
