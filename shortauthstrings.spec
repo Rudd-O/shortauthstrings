@@ -7,7 +7,7 @@
 %define mybuildnumber %{?build_number}%{?!build_number:1}
 
 Name:           python-%{_name}
-Version:        0.1.4
+Version:        0.1.5
 Release:        %{mybuildnumber}%{?dist}
 Summary:        A simple implementation of short authentication strings
 
@@ -51,9 +51,6 @@ Summary:        %{summary}
 
 
 %check
-ls -lRa .
-ls -l /builddir/build/BUILDROOT/python-shortauthstrings-0.1.4-17.fc36.x86_64/usr/lib64/python3.10/site-packages || true
-ls -l /builddir/build/BUILDROOT/python-shortauthstrings-0.1.4-17.fc36.x86_64/usr/lib/python3.10/site-package || true
 %tox
 
 
