@@ -1,4 +1,6 @@
-include *spec
+include *.spec
+include Jenkinsfile
+include build.parameters
 include tox.ini
 graft tests
 global-exclude *.py[cod]
