@@ -21,7 +21,7 @@ Here is a sample from a Python REPL:
 A ready-to-go module to perform Diffie-Hellman key agreement can be found in
 the [blindecdh repository](https://github.com/Rudd-O/blindecdh).
 
-See [module](src/shortauthstrings/__init__.py) for more documentation.
+See [module](https://github.com/Rudd-O/shortauthstrings/blob/master/src/shortauthstrings/__init__.py) for more documentation.
 
 This package is distributed under the GNU Lesser General Public License v2.1.
 For relicensing, contact the package author.
