@@ -16,7 +16,7 @@ No cryptography is done in this package.
 
 from typing import Optional
 
-__version__ = "0.1.7"
+__version__ = "0.1.8"
 
 # From https://github.com/urbit/urbit/blob/7ce50ad75e23fcec0c8cb6ad60369b2515657a89/pkg/arvo/sys/hoon.hoon#L4038-L4053
 
@@ -342,6 +342,8 @@ def emoji(key: bytes, length: Optional[int] = None) -> str:
     emojis = []
     for n, b in enumerate(key):
         emojis.append(EMOJIS[b])
+    if length is not None:
+        emojis = emojis[:length]
     return " ".join(emojis)
 
 

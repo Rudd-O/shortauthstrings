@@ -7,7 +7,7 @@
 %define mybuildnumber %{?build_number}%{?!build_number:1}
 
 Name:           python-%{_name}
-Version:        0.1.7
+Version:        0.1.8
 Release:        %{mybuildnumber}%{?dist}
 Summary:        A simple implementation of short authentication strings
 
